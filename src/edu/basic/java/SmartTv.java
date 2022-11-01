@@ -3,14 +3,11 @@ package edu.basic.java;
  * @author C. Henrique
  * @version 1.0
  * @since 31/10/2022 Release 1
- * @return estrutura de comandos para SmartTv
  */
 public class SmartTv {
     boolean ligada = false;
     int canal = 1;
     int vomule = 5;
-
-
     /**
      * Método para ligar a TV
      * @return sempre liga a Tv | boolean = true
@@ -51,7 +48,7 @@ public class SmartTv {
      * Método para diminuir o volume da TV
      * @return sempre diminuir o volume para menos 1 | int = --
      */
-    public int diminuirVoluem() {
+    public int diminuirVolume() {
         return vomule--;
     }
     /**
